@@ -41,6 +41,14 @@
 		5B28C1C5184B643D00EF4CA3 /* MJLocalizableStringMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C194184A301100EF4CA3 /* MJLocalizableStringMacro.m */; };
 		5B28C1C6184B644800EF4CA3 /* MJLocalizableStringsExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C18F184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m */; };
 		5B28C1C7184B656B00EF4CA3 /* MJLocalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C15C184A298000EF4CA3 /* MJLocalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1C8184B663F00EF4CA3 /* MJLocalizerErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C192184A2E8D00EF4CA3 /* MJLocalizerErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1C9184B664500EF4CA3 /* MJLocalizableString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C17E184A2CF100EF4CA3 /* MJLocalizableString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1CA184B664A00EF4CA3 /* MJLocalizableStringsTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C182184A2D4500EF4CA3 /* MJLocalizableStringsTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1CB184B664E00EF4CA3 /* MJLocalizableStringsTableMerger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C186184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1CC184B665500EF4CA3 /* MJLocalizableStringsDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C18A184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1CD184B665900EF4CA3 /* MJLocalizableStringsFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C17A184A2ADF00EF4CA3 /* MJLocalizableStringsFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1CE184B665E00EF4CA3 /* MJLocalizableStringMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C193184A301100EF4CA3 /* MJLocalizableStringMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1CF184B666200EF4CA3 /* MJLocalizableStringsExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C18E184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,7 +241,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B28C1CC184B665500EF4CA3 /* MJLocalizableStringsDatabase.h in Headers */,
+				5B28C1CF184B666200EF4CA3 /* MJLocalizableStringsExtractor.h in Headers */,
+				5B28C1CB184B664E00EF4CA3 /* MJLocalizableStringsTableMerger.h in Headers */,
+				5B28C1CE184B665E00EF4CA3 /* MJLocalizableStringMacro.h in Headers */,
+				5B28C1CA184B664A00EF4CA3 /* MJLocalizableStringsTable.h in Headers */,
+				5B28C1C8184B663F00EF4CA3 /* MJLocalizerErrors.h in Headers */,
+				5B28C1CD184B665900EF4CA3 /* MJLocalizableStringsFile.h in Headers */,
 				5B28C1C7184B656B00EF4CA3 /* MJLocalizer.h in Headers */,
+				5B28C1C9184B664500EF4CA3 /* MJLocalizableString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
