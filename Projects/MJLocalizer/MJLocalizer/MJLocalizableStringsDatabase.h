@@ -22,7 +22,21 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import <Foundation/Foundation.h>
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@class MJLocalizableStringsTable;
 
+
+@interface MJLocalizableStringsDatabase : NSObject
+
+@property (assign, readonly) NSUInteger totalStringCount;
+
+- (BOOL)addTable:(MJLocalizableStringsTable *)table;
+
+- (void)removeTable:(MJLocalizableStringsTable *)table;
+
+- (MJLocalizableStringsTable *)tableWithName:(NSString *)tableName;
+
+- (NSArray *)tables;
+
+@end

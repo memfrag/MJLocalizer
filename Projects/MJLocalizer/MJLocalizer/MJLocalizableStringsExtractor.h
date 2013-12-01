@@ -22,7 +22,19 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import <Foundation/Foundation.h>
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@class MJLocalizableStringsDatabase;
+@class MJLocalizableStringMacro;
 
+@interface MJLocalizableStringsExtractor : NSObject
+
+- (BOOL)extractLocalizableStringsInFile:(NSString *)codeFilePath
+                             toDatabase:(MJLocalizableStringsDatabase *)stringsDatabase
+                                  macro:(MJLocalizableStringMacro *)macro;
+
+- (BOOL)extractLocalizableStringsInFile:(NSString *)codeFilePath
+                             toDatabase:(MJLocalizableStringsDatabase *)stringsDatabase
+                                 macros:(NSArray *)macros;
+
+@end

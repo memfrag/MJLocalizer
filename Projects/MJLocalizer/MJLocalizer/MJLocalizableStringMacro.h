@@ -22,7 +22,41 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import <Foundation/Foundation.h>
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+typedef enum MJMacroArgumentId
+{
+    MJMacroArgumentIdIgnore,
+    MJMacroArgumentIdKey,
+    MJMacroArgumentIdTable,
+    MJMacroArgumentIdComment,
+    MJMacroArgumentIdValue
+} MJMacroArgumentId;
 
+@interface MJLocalizableStringMacroArgument : NSObject
+
+@property (nonatomic, assign, readonly) MJMacroArgumentId argument;
+@property (nonatomic, assign, readonly) NSUInteger index;
+
+- (id)initWithArgument:(MJMacroArgumentId)argument index:(NSUInteger)index;
+
+@end
+
+
+@interface MJLocalizableStringMacro : NSObject
+
+@property (nonatomic, copy, readonly) NSString *name;
+
+@property (nonatomic, assign, readonly) NSUInteger argumentCount;
+
+@property (nonatomic, strong, readonly) NSArray *arguments;
+
+- (id)initWithName:(NSString *)name;
+
+- (void)addArgument:(MJLocalizableStringMacroArgument *)argument;
+
+- (void)addArguments:(NSArray *)arguments;
+
+- (MJLocalizableStringMacroArgument *)argumentAtIndex:(NSUInteger)index;
+
+@end

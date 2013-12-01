@@ -22,7 +22,14 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import <Foundation/Foundation.h>
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@class MJLocalizableStringsTable;
 
+@interface MJLocalizableStringsFile : NSObject
+
++ (MJLocalizableStringsTable *)readStringsTable:(NSString *)file error:(NSError * __autoreleasing *)error;
+
++ (BOOL)writeStringsTable:(MJLocalizableStringsTable *)stringsTable path:(NSString *)folderPath error:(NSError * __autoreleasing *)error;
+
+@end

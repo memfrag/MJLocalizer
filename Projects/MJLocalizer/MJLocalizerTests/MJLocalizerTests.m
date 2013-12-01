@@ -1,18 +1,18 @@
 //
-//  MJLocalizerTests.m
-//  MJLocalizerTests
+//  mjlocalizerTests.m
+//  mjlocalizerTests
 //
-//  Created by Martin Johannesson on 2013-11-30.
+//  Created by Martin Johannesson on 2013-12-01.
 //  Copyright (c) 2013 Martin Johannesson. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface MJLocalizerTests : XCTestCase
+@interface mjlocalizerTests : XCTestCase
 
 @end
 
-@implementation MJLocalizerTests
+@implementation mjlocalizerTests
 
 - (void)setUp
 {

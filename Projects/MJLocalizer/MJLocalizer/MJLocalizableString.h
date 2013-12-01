@@ -22,7 +22,16 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import <Foundation/Foundation.h>
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@interface MJLocalizableString : NSObject
 
+@property (nonatomic, copy) NSString *key;
+@property (nonatomic, copy) NSString *value;
+@property (nonatomic, copy) NSString *comment;
+
+- (id)initWithKey:(NSString *)key
+            value:(NSString *)value
+          comment:(NSString *)comment;
+
+@end

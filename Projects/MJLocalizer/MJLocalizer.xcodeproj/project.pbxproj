@@ -15,6 +15,32 @@
 		5B28C169184A298000EF4CA3 /* MJLocalizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B28C14C184A297F00EF4CA3 /* MJLocalizer.framework */; };
 		5B28C16F184A298000EF4CA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B28C16D184A298000EF4CA3 /* InfoPlist.strings */; };
 		5B28C171184A298000EF4CA3 /* MJLocalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C170184A298000EF4CA3 /* MJLocalizerTests.m */; };
+		5B28C17C184A2ADF00EF4CA3 /* MJLocalizableStringsFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C17A184A2ADF00EF4CA3 /* MJLocalizableStringsFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C17D184A2ADF00EF4CA3 /* MJLocalizableStringsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C17B184A2ADF00EF4CA3 /* MJLocalizableStringsFile.m */; };
+		5B28C180184A2CF100EF4CA3 /* MJLocalizableString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C17E184A2CF100EF4CA3 /* MJLocalizableString.h */; };
+		5B28C181184A2CF100EF4CA3 /* MJLocalizableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C17F184A2CF100EF4CA3 /* MJLocalizableString.m */; };
+		5B28C184184A2D4500EF4CA3 /* MJLocalizableStringsTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C182184A2D4500EF4CA3 /* MJLocalizableStringsTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C185184A2D4500EF4CA3 /* MJLocalizableStringsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C183184A2D4500EF4CA3 /* MJLocalizableStringsTable.m */; };
+		5B28C188184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C186184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C189184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C187184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.m */; };
+		5B28C18C184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C18A184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C18D184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C18B184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.m */; };
+		5B28C190184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C18E184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C191184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C18F184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m */; };
+		5B28C195184A301100EF4CA3 /* MJLocalizableStringMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C193184A301100EF4CA3 /* MJLocalizableStringMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C196184A301100EF4CA3 /* MJLocalizableStringMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C194184A301100EF4CA3 /* MJLocalizableStringMacro.m */; };
+		5B28C19C184B63E800EF4CA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B28C14F184A298000EF4CA3 /* Cocoa.framework */; };
+		5B28C1BB184B63F900EF4CA3 /* MJLocalizableStringsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C18B184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.m */; };
+		5B28C1BC184B63FD00EF4CA3 /* MJLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C15D184A298000EF4CA3 /* MJLocalizer.m */; };
+		5B28C1BD184B640000EF4CA3 /* MJLocalizerErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C192184A2E8D00EF4CA3 /* MJLocalizerErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1BE184B640800EF4CA3 /* MJLocalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C15C184A298000EF4CA3 /* MJLocalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B28C1BF184B641400EF4CA3 /* MJLocalizableString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C17F184A2CF100EF4CA3 /* MJLocalizableString.m */; };
+		5B28C1C1184B641C00EF4CA3 /* MJLocalizableStringsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C183184A2D4500EF4CA3 /* MJLocalizableStringsTable.m */; };
+		5B28C1C2184B642300EF4CA3 /* MJLocalizableStringsTableMerger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C187184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.m */; };
+		5B28C1C4184B643300EF4CA3 /* MJLocalizableStringsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C17B184A2ADF00EF4CA3 /* MJLocalizableStringsFile.m */; };
+		5B28C1C5184B643D00EF4CA3 /* MJLocalizableStringMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C194184A301100EF4CA3 /* MJLocalizableStringMacro.m */; };
+		5B28C1C6184B644800EF4CA3 /* MJLocalizableStringsExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B28C18F184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m */; };
+		5B28C1C7184B656B00EF4CA3 /* MJLocalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B28C15C184A298000EF4CA3 /* MJLocalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +69,22 @@
 		5B28C16C184A298000EF4CA3 /* MJLocalizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MJLocalizerTests-Info.plist"; sourceTree = "<group>"; };
 		5B28C16E184A298000EF4CA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B28C170184A298000EF4CA3 /* MJLocalizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJLocalizerTests.m; sourceTree = "<group>"; };
+		5B28C17A184A2ADF00EF4CA3 /* MJLocalizableStringsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableStringsFile.h; sourceTree = "<group>"; };
+		5B28C17B184A2ADF00EF4CA3 /* MJLocalizableStringsFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableStringsFile.m; sourceTree = "<group>"; };
+		5B28C17E184A2CF100EF4CA3 /* MJLocalizableString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableString.h; sourceTree = "<group>"; };
+		5B28C17F184A2CF100EF4CA3 /* MJLocalizableString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableString.m; sourceTree = "<group>"; };
+		5B28C182184A2D4500EF4CA3 /* MJLocalizableStringsTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableStringsTable.h; sourceTree = "<group>"; };
+		5B28C183184A2D4500EF4CA3 /* MJLocalizableStringsTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableStringsTable.m; sourceTree = "<group>"; };
+		5B28C186184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableStringsTableMerger.h; sourceTree = "<group>"; };
+		5B28C187184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableStringsTableMerger.m; sourceTree = "<group>"; };
+		5B28C18A184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableStringsDatabase.h; sourceTree = "<group>"; };
+		5B28C18B184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableStringsDatabase.m; sourceTree = "<group>"; };
+		5B28C18E184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableStringsExtractor.h; sourceTree = "<group>"; };
+		5B28C18F184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableStringsExtractor.m; sourceTree = "<group>"; };
+		5B28C192184A2E8D00EF4CA3 /* MJLocalizerErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJLocalizerErrors.h; sourceTree = "<group>"; };
+		5B28C193184A301100EF4CA3 /* MJLocalizableStringMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJLocalizableStringMacro.h; sourceTree = "<group>"; };
+		5B28C194184A301100EF4CA3 /* MJLocalizableStringMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJLocalizableStringMacro.m; sourceTree = "<group>"; };
+		5B28C19B184B63E800EF4CA3 /* libmjlocalizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmjlocalizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +106,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B28C198184B63E800EF4CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B28C19C184B63E800EF4CA3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +132,7 @@
 			children = (
 				5B28C14C184A297F00EF4CA3 /* MJLocalizer.framework */,
 				5B28C163184A298000EF4CA3 /* MJLocalizerTests.xctest */,
+				5B28C19B184B63E800EF4CA3 /* libmjlocalizer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,8 +160,23 @@
 		5B28C155184A298000EF4CA3 /* MJLocalizer */ = {
 			isa = PBXGroup;
 			children = (
+				5B28C192184A2E8D00EF4CA3 /* MJLocalizerErrors.h */,
 				5B28C15C184A298000EF4CA3 /* MJLocalizer.h */,
 				5B28C15D184A298000EF4CA3 /* MJLocalizer.m */,
+				5B28C17E184A2CF100EF4CA3 /* MJLocalizableString.h */,
+				5B28C17F184A2CF100EF4CA3 /* MJLocalizableString.m */,
+				5B28C182184A2D4500EF4CA3 /* MJLocalizableStringsTable.h */,
+				5B28C183184A2D4500EF4CA3 /* MJLocalizableStringsTable.m */,
+				5B28C186184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.h */,
+				5B28C187184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.m */,
+				5B28C18A184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.h */,
+				5B28C18B184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.m */,
+				5B28C17A184A2ADF00EF4CA3 /* MJLocalizableStringsFile.h */,
+				5B28C17B184A2ADF00EF4CA3 /* MJLocalizableStringsFile.m */,
+				5B28C193184A301100EF4CA3 /* MJLocalizableStringMacro.h */,
+				5B28C194184A301100EF4CA3 /* MJLocalizableStringMacro.m */,
+				5B28C18E184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.h */,
+				5B28C18F184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m */,
 				5B28C156184A298000EF4CA3 /* Supporting Files */,
 			);
 			path = MJLocalizer;
@@ -151,6 +217,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B28C188184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.h in Headers */,
+				5B28C184184A2D4500EF4CA3 /* MJLocalizableStringsTable.h in Headers */,
+				5B28C1BD184B640000EF4CA3 /* MJLocalizerErrors.h in Headers */,
+				5B28C17C184A2ADF00EF4CA3 /* MJLocalizableStringsFile.h in Headers */,
+				5B28C18C184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.h in Headers */,
+				5B28C190184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.h in Headers */,
+				5B28C1BE184B640800EF4CA3 /* MJLocalizer.h in Headers */,
+				5B28C180184A2CF100EF4CA3 /* MJLocalizableString.h in Headers */,
+				5B28C195184A301100EF4CA3 /* MJLocalizableStringMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B28C199184B63E800EF4CA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B28C1C7184B656B00EF4CA3 /* MJLocalizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +276,23 @@
 			productReference = 5B28C163184A298000EF4CA3 /* MJLocalizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5B28C19A184B63E800EF4CA3 /* mjlocalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B28C1B5184B63E900EF4CA3 /* Build configuration list for PBXNativeTarget "mjlocalizer" */;
+			buildPhases = (
+				5B28C197184B63E800EF4CA3 /* Sources */,
+				5B28C198184B63E800EF4CA3 /* Frameworks */,
+				5B28C199184B63E800EF4CA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mjlocalizer;
+			productName = mjlocalizer;
+			productReference = 5B28C19B184B63E800EF4CA3 /* libmjlocalizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,6 +320,7 @@
 			projectRoot = "";
 			targets = (
 				5B28C14B184A297F00EF4CA3 /* MJLocalizer */,
+				5B28C19A184B63E800EF4CA3 /* mjlocalizer */,
 				5B28C162184A298000EF4CA3 /* MJLocalizerTests */,
 			);
 		};
@@ -249,7 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B28C189184A2E3F00EF4CA3 /* MJLocalizableStringsTableMerger.m in Sources */,
+				5B28C191184A2E6300EF4CA3 /* MJLocalizableStringsExtractor.m in Sources */,
+				5B28C18D184A2E5100EF4CA3 /* MJLocalizableStringsDatabase.m in Sources */,
+				5B28C17D184A2ADF00EF4CA3 /* MJLocalizableStringsFile.m in Sources */,
+				5B28C185184A2D4500EF4CA3 /* MJLocalizableStringsTable.m in Sources */,
 				5B28C15E184A298000EF4CA3 /* MJLocalizer.m in Sources */,
+				5B28C181184A2CF100EF4CA3 /* MJLocalizableString.m in Sources */,
+				5B28C196184A301100EF4CA3 /* MJLocalizableStringMacro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +366,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B28C171184A298000EF4CA3 /* MJLocalizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B28C197184B63E800EF4CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B28C1BF184B641400EF4CA3 /* MJLocalizableString.m in Sources */,
+				5B28C1C4184B643300EF4CA3 /* MJLocalizableStringsFile.m in Sources */,
+				5B28C1C2184B642300EF4CA3 /* MJLocalizableStringsTableMerger.m in Sources */,
+				5B28C1BC184B63FD00EF4CA3 /* MJLocalizer.m in Sources */,
+				5B28C1C1184B641C00EF4CA3 /* MJLocalizableStringsTable.m in Sources */,
+				5B28C1BB184B63F900EF4CA3 /* MJLocalizableStringsDatabase.m in Sources */,
+				5B28C1C6184B644800EF4CA3 /* MJLocalizableStringsExtractor.m in Sources */,
+				5B28C1C5184B643D00EF4CA3 /* MJLocalizableStringMacro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +552,34 @@
 			};
 			name = Release;
 		};
+		5B28C1B6184B63E900EF4CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mjlocalizer/mjlocalizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				PRIVATE_HEADERS_FOLDER_PATH = include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+			};
+			name = Debug;
+		};
+		5B28C1B7184B63E900EF4CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mjlocalizer/mjlocalizer-Prefix.pch";
+				INSTALL_PATH = "";
+				PRIVATE_HEADERS_FOLDER_PATH = include;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +605,14 @@
 			buildConfigurations = (
 				5B28C178184A298000EF4CA3 /* Debug */,
 				5B28C179184A298000EF4CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B28C1B5184B63E900EF4CA3 /* Build configuration list for PBXNativeTarget "mjlocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B28C1B6184B63E900EF4CA3 /* Debug */,
+				5B28C1B7184B63E900EF4CA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

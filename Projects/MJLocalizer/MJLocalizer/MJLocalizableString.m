@@ -22,7 +22,22 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import "MJLocalizableString.h"
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@implementation MJLocalizableString
 
+- (id)initWithKey:(NSString *)key
+            value:(NSString *)value
+          comment:(NSString *)comment
+{
+    self = [super init];
+    if (self) {
+        _key = [key copy];
+        _value = [value copy];
+        _comment = [comment copy];
+    }
+    
+    return self;
+}
+
+@end

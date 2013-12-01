@@ -22,7 +22,64 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import "MJLocalizableStringMacro.h"
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@implementation MJLocalizableStringMacroArgument
 
+- (id)initWithArgument:(MJMacroArgumentId)argument index:(NSUInteger)index
+{
+    self = [super init];
+    if (self) {
+        _argument = argument;
+        _index = index;
+    }
+    return self;
+}
+
+@end
+
+
+@implementation MJLocalizableStringMacro {
+    NSMutableArray *_arguments;
+}
+
+- (id)initWithName:(NSString *)name
+{
+    self = [super init];
+    if (self) {
+        _name = [name copy];
+        _arguments = [NSMutableArray arrayWithCapacity:10];
+    }
+    return self;
+}
+
+- (NSUInteger)argumentCount
+{
+    return _arguments.count;
+}
+
+- (NSArray *)arguments
+{
+    return _arguments;
+}
+
+- (void)addArgument:(MJLocalizableStringMacroArgument *)argument
+{
+    [_arguments addObject:argument];
+}
+
+- (void)addArguments:(NSArray *)arguments
+{
+    [_arguments addObjectsFromArray:arguments];
+}
+
+- (MJLocalizableStringMacroArgument *)argumentAtIndex:(NSUInteger)index
+{
+    if (index < _arguments.count) {
+        return _arguments[index];
+    } else {
+        return nil;
+    }
+}
+
+@end

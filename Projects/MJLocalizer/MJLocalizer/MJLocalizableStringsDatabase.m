@@ -22,7 +22,56 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import "MJLocalizableStringsDatabase.h"
+#import "MJLocalizableStringsTable.h"
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@implementation MJLocalizableStringsDatabase {
+    NSMutableDictionary *_tables;
+}
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        _tables = [NSMutableDictionary dictionaryWithCapacity:10];
+    }
+    return self;
+}
+
+- (BOOL)addTable:(MJLocalizableStringsTable *)table
+{
+    if ([self tableWithName:table.name]) {
+        return NO;
+    }
+    
+    [_tables setObject:table forKey:table.name];
+    
+    return YES;
+}
+
+- (void)removeTable:(MJLocalizableStringsTable *)table
+{
+    [_tables removeObjectForKey:table];
+}
+
+- (MJLocalizableStringsTable *)tableWithName:(NSString *)tableName
+{
+    return [_tables objectForKey:tableName];
+}
+
+- (NSArray *)tables
+{
+    return [_tables allValues];
+}
+
+- (NSUInteger)totalStringCount
+{
+    NSUInteger totalStringCount = 0;
+    for (MJLocalizableStringsTable *table in [self tables]) {
+        totalStringCount += [table localizableStrings].count;
+    }
+    
+    return totalStringCount;
+}
+
+@end

@@ -22,7 +22,11 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+extern NSString * const MJLocalizerDomain;
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+#define MJLocalizableStringsFilePathIsNilError 101
+#define MJLocalizableStringsFileDoesNotExist 102
+#define MJLocalizableStringsFileParseError 103
 
+#define MJLocalizableStringsFileOutputPathDoesNotExistError 201
+#define MJLocalizableStringsFileOutputPathIsNotADirectoryError 202

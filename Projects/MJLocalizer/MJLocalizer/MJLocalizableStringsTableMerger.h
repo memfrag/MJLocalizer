@@ -22,7 +22,17 @@
 // DEALINGS IN THE SOFTWARE.
 //
 
-#import "MJLocalizer.h"
+#import <Foundation/Foundation.h>
 
-NSString * const MJLocalizerDomain = @"MJLocalizerDomain";
+@class MJLocalizableStringsTable;
 
+@interface MJLocalizableStringsTableMerger : NSObject
+
+@property (nonatomic, assign) BOOL keepStringsMissingInNewTable;
+
+- (id)initWithTranslatedTable:(MJLocalizableStringsTable *)translatedTable
+                     newTable:(MJLocalizableStringsTable *)newTable;
+
+- (MJLocalizableStringsTable *)mergedTable;
+
+@end
